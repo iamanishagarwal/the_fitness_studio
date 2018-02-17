@@ -1,0 +1,197 @@
+*{
+  font-family: helvetica;
+}
+
+.container{
+  background-color: #FBFCFC;
+  position:fixed;
+  width: 100%;
+}
+
+.navbar{
+  width:80%;
+  margin:auto;
+}
+
+.navbar_list{
+  display: inline-block;
+}
+
+.list,.navbar_icon{
+  display: inline-block;
+  padding: 10px;
+}
+
+.navbar_icon{
+  float: right;
+  margin-top: 11px;
+}
+
+a{
+  text-decoration:none;
+  color: #808B96;
+  font-weight: 20;
+}
+
+span{
+  font-size: 20px;
+  color:#808B96;
+  padding: 5px;
+}
+
+.clear{
+  clear:both;
+}
+
+.bg_img1{
+  background-image: url("../img/bg_img3.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+  background-attachment: fixed;
+}
+
+.bg_img1 .header_dark_1{
+  width: 60%;
+  font-size: 80px;
+  text-align: center;
+  line-height: 1.0;
+  color: #17202A;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subtitle_1{
+  color: #17202A;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.button{
+  padding:10px 35px 10px 35px;
+  border: solid 4px black;
+  cursor: pointer;
+}
+
+.background_dark{
+  background-color: #546E7A  ;
+}
+
+.header_light{
+  font-size: 55px;
+  margin: auto;
+  color: #FDFEFE;
+  font-weight: bold;
+  letter-spacing: 8px;
+  padding : 125px;
+  text-align: center;
+}
+
+.subtitle_2{
+  color:  #FDFEFE;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+  letter-spacing: 3px;
+}
+
+.background_dark .text{
+text-align: center;
+padding: 0px 30%;
+word-spacing: 3px;
+color: #FDFEFE;
+font-weight: 20;
+font-size: 15px;
+line-height: 1.5;
+padding-bottom: 100px;
+}
+
+.bg_img2{
+  background-color: #B2EBF2;
+  background-attachment: fixed;
+}
+
+.header_dark_2{
+  font-weight: bold;
+  font-size: 55px;
+  letter-spacing: 6px;
+  padding: 100px;
+  text-align: center;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.trainer1{
+  width: 18vw;
+  margin: 0 30px;
+}
+
+.trainer2{
+  width: 18vw;
+  margin: 0 30px;
+}
+
+.img1{
+  background-image:   url("../img/girl1.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 260px;
+  width: 250px;
+}
+
+.img2{
+  background-image:   url("../img/girl2.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 260px;
+  width: 250px;
+}
+
+.subtitle_3{
+  color: #17202A;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.subtitle_4{
+  color: #212121;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cards .text{
+  color: #212121;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.background_light{
+  background-color: #FFF176;
+}
+
+.background_light .header_dark_1{
+  font-size: 80px;
+  text-align: center;
+  line-height: 1.0;
+  color: #17202A;
+  font-weight: bold;
+  padding:150px 0px;;
+}
