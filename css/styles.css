@@ -2,7 +2,7 @@
   font-family: helvetica;
 }
 
-.container{
+.layer{
   background-color: #FBFCFC;
   position:fixed;
   width: 100%;
@@ -31,6 +31,14 @@ a{
   text-decoration:none;
   color: #808B96;
   font-weight: 20;
+}
+
+a:hover{
+  color: rgba(103, 241, 200, 1);
+}
+
+.active{
+  color: rgba(103, 241, 200, 1);
 }
 
 span{
@@ -89,7 +97,7 @@ span{
   color: #FDFEFE;
   font-weight: bold;
   letter-spacing: 8px;
-  padding : 125px;
+  padding : 125px 0;
   text-align: center;
 }
 
@@ -113,16 +121,28 @@ line-height: 1.5;
 padding-bottom: 100px;
 }
 
-.bg_img2{
+/*.bg_img2{
   background-color: #B2EBF2;
   background-attachment: fixed;
+}*/
+
+.bg_img2{
+  background-image: url(../img/bg_img2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg_layer{
+  background-color: rgba(178, 235, 242, 0.8);
 }
 
 .header_dark_2{
   font-weight: bold;
   font-size: 55px;
   letter-spacing: 6px;
-  padding: 100px;
+  padding: 100px 0;
   text-align: center;
 }
 
@@ -133,31 +153,33 @@ padding-bottom: 100px;
 }
 
 .trainer1{
-  width: 18vw;
+  width: 280px;
   margin: 0 30px;
 }
 
 .trainer2{
-  width: 18vw;
+  width: 280px;
   margin: 0 30px;
 }
 
 .img1{
   background-image:   url("../img/girl1.jpeg");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  background-position: center left;
   height: 260px;
-  width: 250px;
+  width: 280px;
+  margin:0 auto;
 }
 
 .img2{
   background-image:   url("../img/girl2.jpeg");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  background-position: center;
   height: 260px;
-  width: 250px;
+  width: 280px;
+  margin:0 auto;
 }
 
 .subtitle_3{
@@ -185,13 +207,68 @@ padding-bottom: 100px;
 
 .background_light{
   background-color: #FFF176;
+  height: 400px;
+  display: flex;
+  justify-content: center;
 }
 
 .background_light .header_dark_1{
   font-size: 80px;
-  text-align: center;
-  line-height: 1.0;
   color: #17202A;
   font-weight: bold;
-  padding:150px 0px;;
+  position: relative;
+  top: 50px;
+  opacity: 0.1;
+  align-self: center;
+}
+
+
+
+@media all and (max-width: 992px)
+{
+  .bg_img1 .header_dark_1 , .header_light, .header_dark_2
+  {
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .header_light, .header_dark_2{
+    padding: 60px 0;
+  }
+
+  .subtitle_2{
+    padding-bottom: 30px;
+  }
+
+  .background_dark .text
+  {
+    padding: 0 20px 100px 20px;
+  }
+
+  .cards{
+    display: block;
+  }
+
+  .trainer1,.trainer2{
+    width: 100%;
+    margin:0 auto;
+  }
+
+  .trainer1{
+    padding-bottom: 100px;
+  }
+
+  .cards .text{
+    width: 60%;
+    margin:0px auto;
+  }
+
+  .background_light{
+    height: 300px;
+  }
+
+  .background_light .header_dark_1{
+    font-size: 40px;
+    text-align: center;
+  }
 }
